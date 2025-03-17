@@ -1,0 +1,1131 @@
+{
+    "name": "VRInput",
+    "maps": [
+        {
+            "name": "XRLeft",
+            "id": "15332099-b0d5-42dd-9050-9f781ade2d7e",
+            "actions": [
+                {
+                    "name": "Thumbstick",
+                    "type": "PassThrough",
+                    "id": "3dc7d7bf-1802-44f3-88eb-6f0bbc479943",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Grip",
+                    "type": "PassThrough",
+                    "id": "29383e68-c66d-4604-89b6-48517a903243",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "GripButton",
+                    "type": "PassThrough",
+                    "id": "67582d31-c42a-4c7a-8276-75ba87f30491",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "MenuButton",
+                    "type": "PassThrough",
+                    "id": "6c93ebd4-d5a7-41dd-a6f4-a6adc7bb59f6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PrimaryButton",
+                    "type": "PassThrough",
+                    "id": "48465d61-c0d2-4e58-9744-39fa2c571fac",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PrimaryTouch",
+                    "type": "PassThrough",
+                    "id": "5782e7b1-e2ed-4954-9c70-48302b7a147d",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "SecondaryButton",
+                    "type": "PassThrough",
+                    "id": "9100bfb2-0877-4072-8424-9081ca0e47f5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "SecondaryTouch",
+                    "type": "PassThrough",
+                    "id": "aa20a8d3-c7b4-4372-87a8-bd0558da44d7",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Trigger",
+                    "type": "PassThrough",
+                    "id": "9d227139-d6bd-40b2-aa54-3c66159f0ea4",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "TriggerButton",
+                    "type": "PassThrough",
+                    "id": "1302e309-4a48-42c8-93e3-099351785c4d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "TriggerTouch",
+                    "type": "PassThrough",
+                    "id": "ca98f52b-868e-41ad-b466-9eba83d8cb71",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ThumbstickClick",
+                    "type": "PassThrough",
+                    "id": "ac28f8f7-82c6-4eb5-8534-afdb98dca554",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ThumbstickTouch",
+                    "type": "PassThrough",
+                    "id": "e37df1c2-4637-4400-af1a-8018bfb56730",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ThumbrestTouch",
+                    "type": "PassThrough",
+                    "id": "d8c70d8c-9a08-40d7-b103-0046345d7d00",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "DeviceIsTracked",
+                    "type": "PassThrough",
+                    "id": "07d5d4ce-780b-48e6-9043-d230ee260ce1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "DeviceTrackingState",
+                    "type": "PassThrough",
+                    "id": "d88b77d4-f48c-4562-9dec-2d45468a5112",
+                    "expectedControlType": "Integer",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "DevicePosition",
+                    "type": "PassThrough",
+                    "id": "4b77ecdb-b4f6-460e-89c0-d767fa971ca3",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "DeviceRotation",
+                    "type": "PassThrough",
+                    "id": "fb46a43a-3cbf-491a-b706-e375285fef0f",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "DeviceVelocity",
+                    "type": "PassThrough",
+                    "id": "0b326f36-b041-4f7b-a6c2-e688a9c530f7",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "DeviceAngularVelocity",
+                    "type": "PassThrough",
+                    "id": "d8939c49-0f0c-452e-a127-0046a106f01f",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PointerIsTracked",
+                    "type": "PassThrough",
+                    "id": "b6e4712e-1da2-49fc-863c-caf24f401246",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PointerTrackingState",
+                    "type": "PassThrough",
+                    "id": "e034415d-1190-44e1-ac1e-ee5006b532e7",
+                    "expectedControlType": "Integer",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PointerPosition",
+                    "type": "PassThrough",
+                    "id": "15e13862-0d67-4b3c-a355-d1bff5a3459f",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PointerRotation",
+                    "type": "PassThrough",
+                    "id": "375c5ca0-7e7c-4fd1-a138-e0a24756643d",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PointerVelocity",
+                    "type": "PassThrough",
+                    "id": "8bd30f2a-269a-4b3d-bf7d-78365748b530",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PointerAngularVelocity",
+                    "type": "PassThrough",
+                    "id": "7ad1ea0e-c027-4449-9327-1af1bfc7acda",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "IsTracked",
+                    "type": "PassThrough",
+                    "id": "e28b6c3b-6b01-438e-84c9-3f3e57b771a3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "TrackingState",
+                    "type": "PassThrough",
+                    "id": "07aff208-a17d-4321-a8b2-1d0c20ef8e46",
+                    "expectedControlType": "Integer",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "7e3dd18d-c202-41c4-9d2b-7fbd58328d62",
+                    "path": "<XRController>{LeftHand}/{Primary2DAxis}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Thumbstick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c4dc4811-d05d-49d3-816b-370a092a1fae",
+                    "path": "<XRController>{LeftHand}/{Grip}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "027daec4-08f0-47cb-9228-15ffd45ca63a",
+                    "path": "<XRController>{LeftHand}/{GripButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "GripButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "00bdecca-1af2-424e-92f4-80b469ef3717",
+                    "path": "<XRController>{LeftHand}/{MenuButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MenuButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f8f1f69c-e21d-4700-97df-0cadbbe39703",
+                    "path": "<XRController>{LeftHand}/{PrimaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PrimaryButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8689f9a7-74b0-49f4-850b-a6852dcb198c",
+                    "path": "<XRController>{LeftHand}/{PrimaryTouch}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PrimaryTouch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d409674a-ccd3-4287-9a92-12a31ad1fdb3",
+                    "path": "<XRController>{LeftHand}/{SecondaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SecondaryButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ef6fed74-6c99-44fa-a258-99276c85b367",
+                    "path": "<XRController>{LeftHand}/{SecondaryTouch}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SecondaryTouch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8e9bab5b-6fd2-4bf6-9f03-601f593d0ba1",
+                    "path": "<XRController>{LeftHand}/{Trigger}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Trigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f87df270-abe8-4406-9cd9-337533f18e71",
+                    "path": "<XRController>{LeftHand}/{TriggerButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TriggerButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2461d605-5972-4b7b-84cb-d89aede0c34e",
+                    "path": "<XRController>{LeftHand}/{TriggerTouch}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TriggerTouch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "80e934ee-a214-46a8-a53a-22c4942e35ec",
+                    "path": "<XRController>{LeftHand}/{Primary2DAxisClick}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ThumbstickClick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a1395d1a-c9aa-4c34-a7bd-47e58753afc7",
+                    "path": "<XRController>{LeftHand}/{Primary2DAxisTouch}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ThumbstickTouch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "365a32f1-03ea-4875-b9bb-a2d76312fffd",
+                    "path": "<XRController>{LeftHand}/{ThumbrestTouch}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ThumbrestTouch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ca6cfb03-2b5e-4b9d-a601-9fded82c960e",
+                    "path": "<XRController>{LeftHand}/{DeviceIsTracked}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DeviceIsTracked",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e576e450-86e8-4e62-87c6-01f978425b54",
+                    "path": "<XRController>{LeftHand}/{DeviceTrackingState}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DeviceTrackingState",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9f00ec5b-fd6a-4905-85a5-23385c38e24f",
+                    "path": "<XRController>{LeftHand}/{DevicePosition}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DevicePosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9d950a32-067e-4bc4-97bd-cfd9f0fcd281",
+                    "path": "<XRController>{LeftHand}/{DeviceRotation}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DeviceRotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9fcd6151-69be-4c73-addb-a49c2276aeb3",
+                    "path": "<XRController>{LeftHand}/{DeviceVelocity}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DeviceVelocity",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6ec33ea7-b291-4c3b-bf6d-59fb8e176b78",
+                    "path": "<XRController>{LeftHand}/{DeviceAngularVelocity}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DeviceAngularVelocity",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c64249b5-e1a5-45b6-ab32-3021d295252f",
+                    "path": "<XRController>{LeftHand}/{PointerIsTracked}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PointerIsTracked",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "02357a0c-e12c-45b9-979e-0df5ab27d1b7",
+                    "path": "<XRController>{LeftHand}/{PointerTrackingState}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PointerTrackingState",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c83575a0-6160-4210-abca-dff286852d99",
+                    "path": "<XRController>{LeftHand}/{PointerPosition}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PointerPosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dfca74a1-a3c3-4be4-af5f-34b3e42db655",
+                    "path": "<XRController>{LeftHand}/{PointerRotation}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PointerRotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ff452ebe-f676-420c-812c-f96c66a6e828",
+                    "path": "<XRController>{LeftHand}/{PointerVelocity}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PointerVelocity",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ae00baae-36d4-429e-9c02-8081467548b7",
+                    "path": "<XRController>{LeftHand}/{PointerAngularVelocity}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PointerAngularVelocity",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ce88cc15-4ae7-491c-bb40-9e1c2615e6d7",
+                    "path": "<XRController>{LeftHand}/{IsTracked}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "IsTracked",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bc178fae-6adf-47b5-84b6-34bfe903da84",
+                    "path": "<XRController>{LeftHand}/{TrackingState}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TrackingState",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "XRRight",
+            "id": "1ae81a3d-0b20-4294-9502-1537c845a67d",
+            "actions": [
+                {
+                    "name": "Thumbstick",
+                    "type": "PassThrough",
+                    "id": "cfc7bef3-8fc9-469d-80e3-4a933ae8bbab",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Grip",
+                    "type": "PassThrough",
+                    "id": "a2ca1121-f939-42f2-bca6-fb85eb4420cc",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "GripButton",
+                    "type": "PassThrough",
+                    "id": "c7c1a6bc-ee34-4b1c-98de-dcff78a44333",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "MenuButton",
+                    "type": "PassThrough",
+                    "id": "1c8cf879-d7e4-4379-8265-c63c468e58e8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PrimaryButton",
+                    "type": "PassThrough",
+                    "id": "a0403ac8-59b1-4de6-b748-d77e73e7b361",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PrimaryTouch",
+                    "type": "PassThrough",
+                    "id": "8ac23894-e241-4604-a0aa-7e206fc8bcca",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "SecondaryButton",
+                    "type": "PassThrough",
+                    "id": "20e4a52e-3ad5-4546-9567-044e47e693e1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "SecondaryTouch",
+                    "type": "PassThrough",
+                    "id": "6af395af-f699-4217-898f-16cff77cef7e",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Trigger",
+                    "type": "PassThrough",
+                    "id": "6766faa9-67a4-4501-9037-66331fc5f917",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "TriggerButton",
+                    "type": "PassThrough",
+                    "id": "cdf6a28c-efc1-4eab-8ada-56ee02072449",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "TriggerTouch",
+                    "type": "PassThrough",
+                    "id": "362ec1d9-0bd7-42e2-94e5-3c138f9d7d98",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ThumbstickClick",
+                    "type": "PassThrough",
+                    "id": "5501e7bb-8ced-4bdf-bd35-7a51b1482bc4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ThumbstickTouch",
+                    "type": "PassThrough",
+                    "id": "fbc610f7-8fce-4f25-90dd-0fb34d682644",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ThumbrestTouch",
+                    "type": "PassThrough",
+                    "id": "556b11ab-0efc-4bbb-965d-a7ea62374088",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "DeviceIsTracked",
+                    "type": "PassThrough",
+                    "id": "9d2e6823-3f8b-41b3-9d09-881b0bf83450",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "DeviceTrackingState",
+                    "type": "PassThrough",
+                    "id": "91258bb3-d456-4c70-a72f-24d14e18daba",
+                    "expectedControlType": "Integer",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "DevicePosition",
+                    "type": "PassThrough",
+                    "id": "591e6268-825a-45c9-b457-628d331e0850",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "DeviceRotation",
+                    "type": "PassThrough",
+                    "id": "dcda2082-18d7-46b6-8976-4f4f5f230b01",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "DeviceVelocity",
+                    "type": "PassThrough",
+                    "id": "d8ca9289-bfae-4661-9e65-a14c9ea081ff",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "DeviceAngularVelocity",
+                    "type": "PassThrough",
+                    "id": "50954f6b-b39f-4165-901a-3a53090eb6c2",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PointerIsTracked",
+                    "type": "PassThrough",
+                    "id": "c5b64b26-8dbc-45c0-b560-35daedfca054",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PointerTrackingState",
+                    "type": "PassThrough",
+                    "id": "504a7ec1-99d8-4e45-abc8-7cad4d083519",
+                    "expectedControlType": "Integer",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PointerPosition",
+                    "type": "PassThrough",
+                    "id": "e6d27d70-f0df-425b-b299-68db30160930",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PointerRotation",
+                    "type": "PassThrough",
+                    "id": "b6055a18-ebba-4673-b550-b08b1b050776",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PointerVelocity",
+                    "type": "PassThrough",
+                    "id": "5058bab9-e305-4ace-91ef-b8a6b9d6bfc9",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PointerAngularVelocity",
+                    "type": "PassThrough",
+                    "id": "6e21862d-bdf3-457e-b45b-86e17acfebb2",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "IsTracked",
+                    "type": "PassThrough",
+                    "id": "8ff9c31e-4f64-4d7d-96f0-9efea64a5241",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "TrackingState",
+                    "type": "PassThrough",
+                    "id": "6ea9e0a1-3640-4d4b-9248-9accd3b30506",
+                    "expectedControlType": "Integer",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "5c0d872a-78b2-4306-9a8b-49c1e254cf6c",
+                    "path": "<XRController>{RightHand}/{Primary2DAxis}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Thumbstick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7c14b3b2-e4fb-4b5e-8e63-6004f38f63d8",
+                    "path": "<XRController>{RightHand}/{Grip}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2f6f7abd-5a10-4679-a35f-0a28ae489955",
+                    "path": "<XRController>{RightHand}/{GripButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "GripButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3187c3bb-2d89-4442-bf4e-401baa5f2499",
+                    "path": "<XRController>{RightHand}/{PrimaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PrimaryButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0e0be7c7-0bd0-461f-bad4-0b58a144b9d0",
+                    "path": "<XRController>{RightHand}/{PrimaryTouch}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PrimaryTouch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3505996d-14dd-45c4-8918-1e42619c5405",
+                    "path": "<XRController>{RightHand}/{SecondaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SecondaryButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "15982b4c-998b-4be1-9575-fea05d2a273b",
+                    "path": "<XRController>{RightHand}/{SecondaryTouch}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SecondaryTouch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2d2d3946-be42-41f4-9694-e1f5199b228f",
+                    "path": "<XRController>{RightHand}/{Trigger}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Trigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2c2f38c2-7b2e-4536-9570-7590a67d956b",
+                    "path": "<XRController>{RightHand}/{TriggerButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TriggerButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2fdad1a8-4790-4cab-ad0b-a576357fa0c9",
+                    "path": "<XRController>{RightHand}/{TriggerTouch}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TriggerTouch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0e5a3efc-dbd3-4b64-8afd-0320f42b32c1",
+                    "path": "<XRController>{RightHand}/{Primary2DAxisClick}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ThumbstickClick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "610019ad-dbdb-465d-be32-05d742f53512",
+                    "path": "<XRController>{RightHand}/{Primary2DAxisTouch}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ThumbstickTouch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b1b16f7a-ae1d-4724-88bd-e06e9c2b06e1",
+                    "path": "<XRController>{RightHand}/{ThumbrestTouch}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ThumbrestTouch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8d8de4fe-6211-43b1-b8ad-5f2c92a9478b",
+                    "path": "<XRController>{RightHand}/{DeviceIsTracked}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DeviceIsTracked",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f40126de-9309-4cec-9a5b-08633e54cba0",
+                    "path": "<XRController>{RightHand}/{DeviceTrackingState}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DeviceTrackingState",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b7cd7d76-e172-4a0b-843e-f3c6fc990f25",
+                    "path": "<XRController>{RightHand}/{DevicePosition}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DevicePosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5de03208-3b7b-46ac-83ce-0d14d13d27ed",
+                    "path": "<XRController>{RightHand}/{DeviceRotation}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DeviceRotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ca7ea7f0-f23c-4c22-aa7a-54ca8ba78c47",
+                    "path": "<XRController>{RightHand}/{DeviceVelocity}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DeviceVelocity",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "94515fac-835d-49b5-9e46-c8359aefea71",
+                    "path": "<XRController>{RightHand}/{DeviceAngularVelocity}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DeviceAngularVelocity",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b6c9622b-26ce-4077-bbd7-669346f8f1a2",
+                    "path": "<XRController>{RightHand}/{PointerIsTracked}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PointerIsTracked",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "08b9d87a-85ab-4823-b670-46fc54b56bb7",
+                    "path": "<XRController>{RightHand}/{PointerTrackingState}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PointerTrackingState",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a1c049ad-ebe9-4c33-a510-f19cc593f5de",
+                    "path": "<XRController>{RightHand}/{PointerPosition}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PointerPosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4d1b5b38-a216-45a3-a2e1-ae4304f3c6d7",
+                    "path": "<XRController>{RightHand}/{PointerRotation}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PointerRotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "64a7d6de-255f-4b54-80ee-f44f9e7ae92b",
+                    "path": "<XRController>{RightHand}/{PointerVelocity}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PointerVelocity",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "907ff806-fefb-408d-978a-52da43964956",
+                    "path": "<XRController>{RightHand}/{PointerAngularVelocity}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PointerAngularVelocity",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "01ebcc29-fda8-4ac8-b6c8-a8dc13f16328",
+                    "path": "<XRController>{RightHand}/{IsTracked}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "IsTracked",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "be7d8348-f0e5-426c-b3fe-a9bf271a2373",
+                    "path": "<XRController>{RightHand}/{TrackingState}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TrackingState",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
