@@ -15,7 +15,7 @@ public class ShipController : MonoBehaviour
     public float PitchSpeed = 42f;
     public float RollSpeed = 110f;
     public float YawSpeed = 16f;
-    public float MinHandlingMultiplier = 0.5f;
+    public float AngularRecoverySpeed = 120f;
     public float ForwardAcceleration = 45f;
     public float ReverseAcceleration = 30f;
     public float VerticalAcceleration = 30f;
@@ -59,7 +59,43 @@ public class ShipController : MonoBehaviour
 
     private void FlightAssistUpdate()
     {
+        // Linear Movement
+        Vector3 thrustInput = new Vector3(_inputHandler.HorizontalThrust, _inputHandler.VerticalThrust, _inputHandler.Throttle);
+        thrustInput = Vector3.ClampMagnitude(thrustInput, 1f);
 
+        Vector3 currentLocalVelocity = transform.InverseTransformDirection(_rb.linearVelocity);
+        Vector3 targetLocalVelocity = new Vector3(
+            thrustInput.x * TopSpeed * LateralSpeedMultiplier,
+            thrustInput.y * TopSpeed * VerticalSpeedMultiplier,
+            thrustInput.z > 0 ? thrustInput.z * TopSpeed : thrustInput.z * TopSpeed * ReverseSpeedMultiplier
+         );
+
+        Vector3 localAcceleration = (targetLocalVelocity - currentLocalVelocity).normalized;
+        localAcceleration.Scale(new Vector3(LateralAcceleration, VerticalAcceleration, localAcceleration.z > 0 ? ForwardAcceleration : ReverseAcceleration));
+
+        Vector3 worldAcceleration = transform.TransformDirection(localAcceleration);
+
+        _rb.AddForce(worldAcceleration, ForceMode.Acceleration);
+
+        // Angular Movement
+        Vector3 torqueInput = new Vector3(_inputHandler.Pitch, _inputHandler.Yaw, _inputHandler.Roll);
+
+        Vector3 targetLocalAngularVelocity = new Vector3(
+            torqueInput.x * PitchSpeed,
+            torqueInput.y * YawSpeed,
+            torqueInput.z * RollSpeed
+        );
+
+        if (thrustInput.z > 0)
+        {
+            targetLocalAngularVelocity *= HandlingCurve.Evaluate(thrustInput.z);
+        }
+
+        Vector3 currentLocalAngularVelocity = transform.InverseTransformDirection(_rb.angularVelocity);
+
+        currentLocalAngularVelocity = Vector3.MoveTowards(currentLocalAngularVelocity, targetLocalAngularVelocity * Mathf.Deg2Rad, AngularRecoverySpeed * Mathf.Deg2Rad * Time.fixedDeltaTime);
+
+        _rb.angularVelocity = transform.TransformDirection(currentLocalAngularVelocity);
     }
 
     private void FreeFlightUpdate()
