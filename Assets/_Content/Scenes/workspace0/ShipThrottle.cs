@@ -25,6 +25,9 @@ public class ShipThrottle : ControlMetaphor
 
     private void Update()
     {
+        float VerticalThrust = 0;
+        float HorizontalThrust = 0;
+
         if (IsGrabbed)
         {
             _targetPosition = transform.parent.InverseTransformPoint(_inputs.GripCenterTransform.position);
@@ -34,6 +37,9 @@ public class ShipThrottle : ControlMetaphor
             {
                 _targetPosition = new Vector3(0, 0, _zeroPosition);
             }
+
+            VerticalThrust = _inputs.Thumbstick.y;
+            HorizontalThrust = _inputs.Thumbstick.x;
         }
 
         transform.localPosition = Vector3.Lerp(transform.localPosition, _targetPosition, Mathf.Clamp01(Time.deltaTime * _LerpSpeed));
@@ -51,6 +57,9 @@ public class ShipThrottle : ControlMetaphor
             }
 
             _shipInputHandler.Throttle = outputValue;
+
+            _shipInputHandler.VerticalThrust = VerticalThrust;
+            _shipInputHandler.HorizontalThrust = HorizontalThrust;
         }
     }
 
