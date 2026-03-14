@@ -17,6 +17,15 @@ public class HUDRadar : MonoBehaviour
             RadarBlip blip = _blipPool.GetObject().GetComponent<RadarBlip>();
             blip.TrackedTransform = target;
             target.tag = "TrackedTarget";
+            RadarTrackable info = target.GetComponent<RadarTrackable>();
+            if (info != null)
+            {
+                blip.Set(info.Sprite, info.Color);
+            }
+            else
+            {
+                blip.Set(null, Color.white);
+            }
         }
         _radarTrigger.NewTargets.Clear();
     }

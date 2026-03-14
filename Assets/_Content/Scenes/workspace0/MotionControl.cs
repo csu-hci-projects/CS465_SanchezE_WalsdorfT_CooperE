@@ -75,9 +75,9 @@ public class MotionControl : MonoBehaviour
             {
                 if (CurrentHoveredGrabCollider != null)
                 {
-                    CurrentHoveredGrabCollider.GetComponent<ControlMetaphor>()?.OnHoverEnd();
+                    CurrentHoveredGrabCollider.GetComponentInParent<ControlMetaphor>()?.OnHoverEnd();
                 }
-                closestCollider.GetComponent<ControlMetaphor>()?.OnHoverStart();
+                closestCollider.GetComponentInParent<ControlMetaphor>()?.OnHoverStart();
                 CurrentHoveredGrabCollider = closestCollider;
             }
         }
@@ -85,7 +85,7 @@ public class MotionControl : MonoBehaviour
         {
             if (CurrentHoveredGrabCollider != null)
             {
-                CurrentHoveredGrabCollider.GetComponent<ControlMetaphor>()?.OnHoverEnd();
+                CurrentHoveredGrabCollider.GetComponentInParent<ControlMetaphor>()?.OnHoverEnd();
                 CurrentHoveredGrabCollider = null;
             }
         }

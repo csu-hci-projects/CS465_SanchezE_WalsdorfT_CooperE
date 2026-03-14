@@ -18,6 +18,14 @@ public class RadarBlip : MonoBehaviour
         _lineRenderer = GetComponentInChildren<LineRenderer>();
     }
 
+    public void Set(Sprite sprite, Color color)
+    {
+        _spriteRenderer.sprite = sprite;
+        _spriteRenderer.color = color;
+        _lineRenderer.startColor = color;
+        _lineRenderer.endColor = color;
+    }
+
     private void Update()
     {
         if (TrackedTransform == null)
@@ -46,8 +54,10 @@ public class RadarBlip : MonoBehaviour
 
 
         float alpha = 1 - (distance / DISPLAY_MAX);
-        _spriteRenderer.color = new Color(1, 1, 1, alpha);
-        _lineRenderer.endColor = new Color(1, 1, 1, alpha);
-        _lineRenderer.startColor = new Color(1, 1, 1, alpha);
+        Color color = _spriteRenderer.color;
+        color.a = alpha;
+        _spriteRenderer.color = color;
+        _lineRenderer.endColor = color;
+        _lineRenderer.startColor = color;
     }
 }
